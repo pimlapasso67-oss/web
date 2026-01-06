@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Poseify - Modeling Agency Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&family=Work+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark px-lg-5">
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h2 class="mb-0 text-primary text-uppercase"><i class="fa-regular fa-face-smile me-1"></i>FilmReview
+                </h2>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="movie.html" class="nav-item nav-link">Movie</a>
+                    <a href="service.html" class="nav-item nav-link">Series</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">type</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="team.html" class="dropdown-item">Romantic</a>
+                            <a href="testimonial.html" class="dropdown-item">Drama</a>
+                            <a href="404.html" class="dropdown-item"Comedy</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                
+            </div>
+        </nav>
+
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/1.4.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="title mx-5 px-5 animated slideInDown">
+                            <div class="title-center">
+                                <h5>Welcome</h5>
+                                <h1 class="display-1">MovieMood</h1>
+                            </div>
+                        </div>
+                        <p class="fs-5 mb-5 animated slideInDown">ทุกเรื่องมีเรื่องราว และทุกการรับชมมีความรู้สึก
+                            เรารวบรวมรีวิวหนังและซีรีส์ที่ถ่ายทอดจากประสบการณ์จริง</p>
+                        <p class="fs-5 mb-5 animated slideInDown">เพื่อให้คุณได้รู้จักแต่ละเรื่องมากกว่าที่เห็นในตัวอย่าง
+                            และเลือกดูเรื่องที่ใช่ สำหรับช่วงเวลาที่พิเศษของคุณ</p>
+                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/1.6.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="title mx-5 px-5 animated slideInDown">
+                            <div class="title-center">
+                                <h5>Welcome</h5>
+                                <h1 class="display-1">รีวิวครบ จบทุกเรื่อง</h1>
+                            </div>
+                        </div><br>
+                        <p class="fs-5 mb-5 animated slideInDown">ในโลกที่มีหนังและซีรีส์ให้เลือกนับไม่ถ้วน  การตัดสินใจว่าจะดูเรื่องไหนดีไม่ใช่เรื่องง่าย 
+                            <br> เว็บไซต์แห่งนี้จึงถูกสร้างขึ้นเพื่อรวบรวมรีวิวหนังและซีรีส์จากมุมมองของผู้ชมจริง </p>
+                            <p class="fs-5 mb-5 animated slideInDown">  " 
+                            <br>  </p>
+                        <p class="fs-5 mb-5 animated slideInDown"> ช่วยให้คุณประหยัดเวลา เลือกดูเรื่องที่ตรงใจ 
+                            <br> และสนุกกับทุกการรับชมโดยไม่ต้องเสี่ยงผิดหวัง </p>
+
+                        
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid bg-secondary">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-7 pb-0 pb-lg-5 py-5">
+                    <div class="pb-0 pb-lg-5 py-5">
+                        <div class="title wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="title-left">
+                                <h5>Story</h5>
+                                <h1>Popular movies</h1>
+                            </div>
+                        </div>
+                        <h4 class="lh-base mb-4"><a href="https://htmlcodex.com/downloading/?item=3631"><font size="6"> Harry Potter </font></a><font size="4"> "ก้าวเข้าสู่โลกเวทมนตร์ที่ซ่อนความลับและการผจญภัย!
+                         พบกับเด็กชายผู้รอดชีวิต แฮร์รี่ พอตเตอร์ และเพื่อนรักของเขา รอน และ เฮอร์ไมโอนี ในการต่อสู้กับความมืดครั้งยิ่งใหญ่... คุณพร้อมหรือยังที่จะสัมผัสเวทมนตร์ที่ไม่มีวันลืม?" </font>
+                    
+                    </h4>
+
+                    
+                        <ul class="list-group list-group-flush mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                            <li class="list-group-item bg-dark text-body border-secondary ps-0">
+                                <i class="fa fa-check-circle text-primary me-1"></i>Fantasy   สิ่งมีชีวิตลึกลับ และพลังวิเศษ ที่แตกต่างจากโลกความเป็นจริง
+                            </li>
+                            <li class="list-group-item bg-dark text-body border-secondary ps-0">
+                                <i class="fa fa-check-circle text-primary me-1"></i>Adventure   การเดินทางและเผชิญความท้าทายต่างๆ เต็มไปด้วยความตื่นเต้น   
+                            </li>
+                            <li class="list-group-item bg-dark text-body border-secondary ps-0">
+                                <i class="fa fa-check-circle text-primary me-1"></i>Magic   ไม้กายสิทธิ์ โรงเรียนเวทมนตร์ และพลังลึกลับที่เป็นหัวใจของเรื่อง
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="a2.jpg" alt="" class="img-fluid mb-3" style="
+                            width: 400px;
+                            height: 500px;
+                            object-fit: cover;
+                            border: 4px solid;
+                            border-image: linear-gradient(135deg, #000000, #0d6efd) 1;
+        ">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center">
+                <div class="title wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="title-center">
+                        <h5>Movies / Series</h5>
+                        <h1> hit movies ฮิตติดเทรนด์</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item service-item-left">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-5">
+                        <div class="service-img p-5 wow fadeInRight" data-wow-delay="0.2s">
+                            <img class="img-fluid rounded-circle" src="a1.jpg" alt="" width="350"  height="200">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="service-text px-5 px-md-0 py-md-5 wow fadeInRight" data-wow-delay="0.5s">
+                            <h3 class="text-uppercase">LAHN MAH (หลานม่า) </h3>
+                            <p class="mb-4">เล่าเรื่องของ “เอ็ม” เด็กหนุ่มที่ตัดสินใจดรอปเรียนเพื่อไล่ตามความฝันการเป็นนักแคสต์เกม
+        แต่เมื่อความจริงไม่สวยงามอย่างที่คิด ชีวิตของเขาก็พาให้ต้องกลับมาเผชิญหน้ากับความรับผิดชอบที่ไม่เคยเลือก ท่ามกลางเวลาที่เหลือน้อยลงทุกวัน 
+        ความสัมพันธ์ที่เริ่มต้นจากผลประโยชน์กลับค่อย ๆ แปรเปลี่ยนเป็นความผูกพันที่อบอุ่นและจริงใจก่อนจะนำไปสู่บทสรุปที่อ่อนโยน 
+        และทำให้ใครหลายคนกลั้นน้ำตาไม่อยู่</p>
+        <div class="text-warning">
+                ⭐⭐⭐⭐⭐
+            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item service-item-right">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-5 order-md-1 text-md-end">
+                        <div class="service-img p-5 wow fadeInLeft" data-wow-delay="0.2s">
+                            <img class="img-fluid rounded-circle" src="a3.jpg" alt="" width="350"  height="200">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="service-text px-5 px-md-0 py-md-5 text-md-end wow fadeInLeft" data-wow-delay="0.5s">
+                            <h3 class="text-uppercase">Mouse</h3>
+                            <p class="mb-4">ซีรีส์ระทึกขวัญ-สืบสวนสุดฮิต นำเสนอเรื่องราวการไล่ล่าฆาตกรต่อเนื่องที่โหดเหี้ยม โดยมีประเด็นหลักเรื่องยีนไซโคพาธ (Psychopath) 
+                                ความโหดร้ายในอดีต และการตามหาความจริงที่เข้มข้น ลุ้นระทึกทุกตอน</p>
+                                <b>"ถ้าความเลวร้ายสามารถถ่ายทอดได้ตั้งแต่เกิดมนุษย์ยังมีสิทธิ์เลือกเป็นคนดีหรือไม่?"</b><br><br>
+                                <div class="text-warning">
+                ⭐⭐⭐⭐⭐
+            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item service-item-left">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-5">
+                        <div class="service-img p-5 wow fadeInRight" data-wow-delay="0.2s">
+                            <img class="img-fluid rounded-circle" src="a4.jpg" alt="" width="350"  height="200">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="service-text px-5 px-md-0 py-md-5 wow fadeInRight" data-wow-delay="0.5s">
+                            <h3 class="text-uppercase">บุพเพสันนิวาส </h3>
+                            <p class="mb-4">จากหญิงสาวยุคปัจจุบันสู่โลกอดีตในสมัยอยุธยาเรื่องราวความรักที่ถูกผูกไว้ด้วยพรหมลิขิต 
+                                ทำให้หัวใจอบอุ่นและน่าจดจำ ย้อนเวลาไปสู่สมัยอยุธยากับความรักที่ถูกผูกไว้ด้วยคำว่า “บุพเพสันนิวาส”
+ทั้งสนุก ซาบซึ้ง และชวนอมยิ้มในทุกตอน</p>
+                            <div class="text-warning">
+                ⭐⭐⭐⭐⭐
+            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item service-item-right">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-5 order-md-1 text-md-end">
+                        <div class="service-img p-5 wow fadeInLeft" data-wow-delay="0.2s">
+                            <img class="img-fluid rounded-circle" src="a5.jpg" alt="" width="350"  height="200">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="service-text px-5 px-md-0 py-md-5 text-md-end wow fadeInLeft" data-wow-delay="0.5s">
+                            <h3 class="text-uppercase">The Lord of the Rings</h3>
+                            <p class="mb-4">ไตรภาคมหากาพย์แฟนตาซีระดับตำนาน หนังฮิตติดเทรนที่ยอดเยี่ยมที่สุดตลอดกาลเนื้อเรื่องเข้มข้นและลึกซึ้ง
+                                งานสร้างอลังการ ฉากและดนตรีทรงพลัง ถ่ายทอดคุณค่าของความหวัง มิตรภาพ และการเสียสละ
+                            </p>
+                            <div class="text-warning">
+                ⭐⭐⭐⭐⭐
+            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Banner Start -->
+    <div class="container py-5">
+    <div class="row g-4 text-center">
+
+        <!-- เรื่องที่ 1 -->
+        <div class="col-md-4">
+            <img src="a7.jpg" class="img-fluid mb-3" alt="Movie 1"
+                style="height: 350px; object-fit: cover;">
+            <h5 class="text-white">Avatar</h5>
+            <p class="text-muted">โลกต่างดาว เทคโนโลยีล้ำสมัย การเดินทาง</p>
+            <div class="text-warning">
+                ⭐⭐⭐
+            </div>
+        </div>
+
+        <!-- เรื่องที่ 2 -->
+        <div class="col-md-4">
+            <img src="a8.jpg" class="img-fluid mb-3" alt="Movie 2"
+                style="height: 350px; object-fit: cover;">
+            <h5 class="text-white">Titanic</h5>
+            <p class="text-muted">ดราม่า ความรัก การเสียสละ</p>
+            <div class="text-warning">
+                ⭐⭐⭐
+            </div>
+        </div>
+
+        <!-- เรื่องที่ 3 -->
+        <div class="col-md-4">
+            <img src="a6.jpg" class="img-fluid mb-3" alt="Movie 3"
+                style="height: 350px; object-fit: cover;">
+            <h5 class="text-white">Jurassic World</h5>
+            <p class="text-muted">เเฟนตาซี ผจญภัย เเอคชั่น</p>
+            <div class="text-warning">
+                ⭐⭐⭐
+            </div>
+        </div>
+
+    </div>
+</div>
+
+    <!-- Banner End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center">
+                <div class="title wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="title-center">
+                        <h5>Movies / Series</h5>
+                        <h1>More movie information ข้อมูลเพิ่มเติม </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="team-item">
+                        <div class="team-body">
+                            <div class="team-before">
+                                <span>Movie Genre</span>
+                                <span>Film Director</span>
+                                <span>Lead actor</span>
+                                <span>Lead actor</span>
+                                <span>Part</span>
+                            </div>
+                            <img class="img-fluid" src="z1.jpg" alt="">
+                            <div class="team-after">
+                                <span>แฟนตาซี</span>
+                                <span>Peter Jackson</span>
+                                <span>Elijah Wood</span>
+                                <span>Ian McKellen</span>
+                                <span>3 Part</span>
+                            </div>
+                        </div>
+                        <a class="team-name" href="#">
+                            <h5 class="text-uppercase mb-0">The Lord of the Rings</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="team-body">
+                            <div class="team-before">
+                                <span>Movie Genre</span>
+                                <span>Film Director</span>
+                                <span>Lead actor</span>
+                                <span>Lead actor</span>
+                                <span>Part</span>
+                            </div>
+                            <img class="img-fluid" src="z1.1.jpg" alt="">
+                            <div class="team-after">
+                                <span>ดราม่า</span>
+                                <span>พัฒน์ บุญนิธิพัฒน์</span>
+                                <span>บิวกิ้ว (เอ็ม)</span>
+                                <span>เเอ๋ว (อาม่าเหม้งจู)</span>
+                                <span>1 Part</span>
+                            </div>
+                        </div>
+                        <a class="team-name" href="#">
+                            <h5 class="text-uppercase mb-0">LAHN MAH</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="team-body">
+                            <div class="team-before">
+                                <span>Movie Genre</span>
+                                <span>Film Director</span>
+                                <span>Lead actor</span>
+                                <span>Lead actor</span>
+                                <span>Part</span>
+                            </div>
+                            <img class="img-fluid" src="a7.jpg" alt="">
+                            <div class="team-after">
+                                <span>แฟนตาซี</span>
+                                <span>เจมส์ คาเมรอน </span>
+                                <span>Sam Worthington</span>
+                                <span>Zoë Saldaña</span>
+                                <span>5 Part</span>
+                            </div>
+                        </div>
+                        <a class="team-name" href="#">
+                            <h5 class="text-uppercase mb-0">Avatar</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="team-body">
+                            <div class="team-before">
+                                 <span>Movie Genre</span>
+                                <span>Film Director</span>
+                                <span>Lead actor</span>
+                                <span>Lead actor</span>
+                                <span>Part</span>
+                            </div>
+                            <img class="img-fluid" src="z1.3.jpg" alt="">
+                            <div class="team-after">
+                                 <span>ระทึกขวัญ</span>
+                                <span>Choi Joon-bae  </span>
+                                <span>ลี ซึงกิ</span>
+                                <span>ลี ฮีจุน</span>
+                                <span>2 Part</span>
+                            </div>
+                        </div>
+                        <a class="team-name" href="#">
+                            <h5 class="text-uppercase mb-0">Mouse</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="team-body">
+                            <div class="team-before">
+                                <span>Movie Genre</span>
+                                <span>Film Director</span>
+                                <span>Lead actor</span>
+                                <span>Lead actor</span>
+                                <span>Part</span>
+                            </div>
+                            <img class="img-fluid" src="z1.4.jpg" alt="">
+                            <div class="team-after">
+                                <span>โรแมนติก-คอมเมดี้</span>
+                                <span>ใหม่ ภวัต พนังคศิริ  </span>
+                                <span>ธนวรรธน์(พ่อเดช)</span>
+                                <span>ราณี(การะเกด)</span>
+                                <span>2 Part</span>
+                            </div>
+                        </div>
+                        <a class="team-name" href="#">
+                            <h5 class="text-uppercase mb-0">บุพเพสันนิวาส</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="team-body">
+                            <div class="team-before">
+                                <span>Movie Genre</span>
+                                <span>Film Director</span>
+                                <span>Lead actor</span>
+                                <span>Lead actor</span>
+                                <span>Part</span>
+                            </div>
+                            <img class="img-fluid" src="a8.jpg" alt="">
+                            <div class="team-after">
+                                <span>ภัยพิบัติ</span>
+                                <span>เจมส์ แคเมอรอน</span>
+                                <span>ลีโอนาร์โด ดิแคพรีโอ</span>
+                                <span>เคต วินสเล็ต</span>
+                                <span>1 Part</span>
+                            </div>
+                        </div>
+                        <a class="team-name" href="#">
+                            <h5 class="text-uppercase mb-0">Titanic</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="team-body">
+                            <div class="team-before">
+                                <span>Movie Genre</span>
+                                <span>Film Director</span>
+                                <span>Lead actor</span>
+                                <span>Lead actor</span>
+                                <span>Part</span>
+                            </div>
+                            <img class="img-fluid" src="a6.jpg" alt="">
+                            <div class="team-after">
+                                <span>แอคชั่นผจญภัย</span>
+                                <span>โคลิน เทรวอร์โรว์</span>
+                                <span>คริส แพร็ตต์</span>
+                                <span>ไบรซ์ ดัลลาส โฮเวิร์ด</span>
+                                <span>3 Part</span>
+                            </div>
+                        </div>
+                        <a class="team-name" href="#">
+                            <h5 class="text-uppercase mb-0">Jurassic World</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="team-body">
+                            <div class="team-before">
+                                <span>Movie Genre</span>
+                                <span>Film Director</span>
+                                <span>Lead actor</span>
+                                <span>Lead actor</span>
+                                <span>Part</span>
+                            </div>
+                            <img class="img-fluid" src="2.jpg" alt="">
+                            <div class="team-after">
+                                <span>สยองขวัญ-คอมเมดี้</span>
+                                <span>ไมค์-ภณธฤต </span>
+                                <span>ชิน ชินวุฒ</span>
+                                <span>เอม วิทวัส </span>
+                                <span>4 Part</span>
+                        </div>
+                        <a class="team-name" href="#">
+                            <h5 class="text-uppercase mb-0">พี่นาค</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5 bg-secondary">
+        <div class="container py-5">
+            <div class="text-center">
+                <div class="title wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="title-center">
+                        <h5>Movies / Series</h5>
+                        <h1>MovieMood</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.3s">
+                <div class="testimonial-item text-center"
+                    data-dot="<img class='img-fluid' src='img/1.3.png' alt=''>">
+                    <p class="fs-5">หวังว่าสิ่งเหล่านี้จะชวนให้คุณดื่มด่ำไปกับโลกใหม่ ที่เต็มไปด้วยเรื่องราวน่าค้นหาและความทรงจำดีๆ
+                        ความประทับใจที่ซ่อนอยู่ในทุกฉากของเรื่อง</p>
+                    <h5 class="text-uppercase">feeling</h5>
+                    <span class="text-primary">Happy</span>
+                </div>
+                <div class="testimonial-item text-center"
+                    data-dot="<img class='img-fluid' src='img/1.2.png' alt=''>">
+                    <p class="fs-5">ชวนให้คุณออกเดินทางไปพร้อมตัวละคร และสัมผัสประสบการณ์ใหม่ผ่านจอภาพยนตร์ หลงเข้าไปในโลกของเรื่องราว
+                         และลืมเวลาไปชั่วขณะ</p>
+                    <h5 class="text-uppercase">feeling</h5>
+                    <span class="text-primary">Sad / Scared</span>
+                </div>
+                <div class="testimonial-item text-center"
+                    data-dot="<img class='img-fluid' src='img/1.1.jpg' alt=''>">
+                    <p class="fs-5">ชวนให้คุณได้สัมผัสความสนุก ความลุ้นระทึก และคุณค่าของมิตรภาพไปพร้อมกัน พักจากความเป็นจริง 
+                        แล้วปล่อยใจไปกับเรื่องราวที่ทั้งตื่นเต้นและอบอุ่น</p>
+                    <h5 class="text-uppercase">feeling</h5>
+                    <span class="text-primary">Excited</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center py-5">
+            <a href="index.html">
+                <h1 class="display-4 mb-3 text-white text-uppercase"><i
+                        class="fa-regular fa-face-smile me-1"></i>FilmReview</h1>
+            </a>
+            
+            
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-primary border-2 btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
